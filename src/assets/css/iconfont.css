@@ -1,0 +1,20 @@
+
+/*导入iconfont*/
+@import "//at.alicdn.com/t/font_444910_09codx8roe85.css";
+
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon-tab_icon_fold {
+    color: #3D7DFF;
+}
+
+.icon-content_icon_required {
+    color: #f56c6c;
+    font-size: .75rem;
+    transform: scale(0.7);
+}

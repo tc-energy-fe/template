@@ -5,10 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-production": "vue-cli-service build --mode production",
+    "analyze": "vue-cli-service build --report"
   },
   "dependencies": {
+    "blueimp-md5": "^2.12.0",
     "core-js": "^3.6.4",
+    "echarts": "^4.7.0",
+    "element-ui": "^2.13.0",
+    "moment": "^2.24.0",
+    "tc-ui-lib": "^0.4.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"

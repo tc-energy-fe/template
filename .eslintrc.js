@@ -12,6 +12,20 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
-  }
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-undef': 'off',
+    'prefer-const': 'off',
+    'no-prototype-builtins': 'off',
+    'quotes': 'off',
+    'quote-props': 'off',
+    'indent': 2
+  },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        'indent': 'off'
+      }
+    }
+  ]
 }
