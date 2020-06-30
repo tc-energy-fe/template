@@ -18,7 +18,8 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'quotes': 'off',
     'quote-props': 'off',
-    'indent': 2
+    'indent': 2,
+    'prefer-promise-reject-errors': "off"
   },
   overrides: [
     {
